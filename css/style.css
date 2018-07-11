@@ -1013,18 +1013,23 @@ fieldset {
   padding: 3px 13px;
 }
 
-.rating {
-  text-align: center;
-}
-
 .rating-list {
   margin: 0;
   padding: 0;
   display: -webkit-box;
-  /* display: -ms-flexbox; */
+  display: -ms-flexbox;
   display: flex;
   list-style: none;
-  text-align: right;
+  -webkit-box-align: flex-end;
+  -moz-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+  -webkit-box-pack: flex-end;
+  -moz-box-pack: flex-end;
+  -ms-flex-pack: flex-end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .rating-item {
