@@ -1013,6 +1013,10 @@ fieldset {
   padding: 3px 13px;
 }
 
+.rating {
+  text-align: right;
+}
+
 .rating-list {
   margin: 0;
   padding: 0;
