@@ -863,6 +863,10 @@ fieldset {
   padding-left: 12px;
 }
 
+.sort-button a:nth-child(2) path {
+  fill: #81b3d2;
+}
+
 .sorting-item {
   margin-right: 35px;
 }
@@ -1096,6 +1100,7 @@ fieldset {
   font: inherit;
   background: none;
   border: none;
+  vertical-align: top;
 }
 
 .range-control {
