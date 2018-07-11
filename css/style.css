@@ -758,9 +758,10 @@ fieldset {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: space-between;
-          justify-content: space-between;
+  -ms-flex-pack: space-between;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
   padding-left: 73px;
   padding-right: 73px;
   text-align: center;
@@ -832,18 +833,9 @@ fieldset {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: flex-end;
-      -ms-flex-align: flex-end;
-          align-items: flex-end;
-          /* -webkit-box-align: flex-end;
-          -moz-box-align: flex-end;
-          -ms-flex-align: flex-end;
-          -webkit-align-items: flex-end;
-          -webkit-box-pack: flex-end;
-          -moz-box-pack: flex-end;
-          -ms-flex-pack: flex-end;
-          -webkit-justify-content: flex-end;
-          justify-content: flex-end; */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .sort-button a path {
