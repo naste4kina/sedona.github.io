@@ -1093,6 +1093,7 @@ fieldset {
 
 .price-control input {
   width: 50px;
+  min-height: 30px;
   margin: 0;
   padding: 0;
   padding-left: 3px;
